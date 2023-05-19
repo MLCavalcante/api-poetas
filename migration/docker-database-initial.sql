@@ -1,0 +1,10 @@
+
+create table poetas(
+    id serial primary key,
+    nome varchar,
+    historia varchar
+);
+
+INSERT INTO poetas(nome, historia) VALUES
+('Walt Whitman', 'Walt Whitman is America’s world poet—a latter-day successor to Homer, Virgil, Dante, and Shakespeare. In Leaves of Grass (1855, 1891-2), he celebrated democracy, nature, love, and friendship. This monumental work chanted praises to the body as well as to the soul, and found beauty and reassurance even in death. Along with Emily Dickinson, Whitman is regarded as one of America’s most significant 19th-century poets and would influence later many poets, including Ezra Pound, William Carlos Williams, Allen Ginsberg, Simon Ortiz, C.K. Williams, and Martín Espada.'),
+('William Blake', 'Poet, painter, engraver, and visionary William Blake worked to bring about a change both in the social order and in the minds of men. Though in his lifetime his work was largely neglected or dismissed, he is now considered one of the leading lights of English poetry, and his work has only grown in popularity. In his Life of William Blake (1863) Alexander Gilchrist warned his readers that Blake “neither wrote nor drew for the many, hardly for work’y-day men at all, rather for children and angels; himself  ‘a divine child,’ whose playthings were sun, moon, and stars, the heavens and the earth.” Yet Blake himself believed that his writings were of national importance and that they could be understood by a majority of his peers. Far from being an isolated mystic, Blake lived and worked in the teeming metropolis of London at a time of great social and political change that profoundly influenced his writing. In addition to being considered one of the most visionary of English poets and one of the great progenitors of English Romanticism, his visual artwork is highly regarded around the world. ');
